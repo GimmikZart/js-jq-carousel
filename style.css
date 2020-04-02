@@ -16,7 +16,8 @@
   margin-top: 100px;
 }
 
-#carosello img {
+
+.immagini img {
   display: none;
   width: 80vw;
   height: 80vh;
@@ -26,6 +27,6 @@
   font-size: 100px;
 }
 
-#carosello .active {
+.immagini img.active {
   display: inline-block;
 }

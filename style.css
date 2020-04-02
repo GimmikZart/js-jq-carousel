@@ -19,7 +19,7 @@
 
 .immagini img {
   display: none;
-  width: 80vw;
+  width: 1080px;
   height: 80vh;
 }
 
@@ -29,4 +29,19 @@
 
 .immagini img.active {
   display: inline-block;
+}
+
+.pallini {
+  text-align: center;
+  margin-top:20px;
+  font-size: 20px;
+}
+
+.pallini i {
+  margin: 0 10px;
+  opacity: 0.5;
+}
+
+.pallini .active {
+  opacity: 1;
 }
